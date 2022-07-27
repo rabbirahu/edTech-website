@@ -4,15 +4,216 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pro Edu</title>
+    <title>Pro Edu Larner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- Navigation Start -->
-
+    <header class="header-sec pt-4 pb-4">
+        <Section class="container">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-semibold fs-1" href="#home">Pro Edu Larner</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active ml-auto" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
+                            <button class="text-primary">Register</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </Section>
+    </header>
     <!-- Navigation End -->
+
+    <!-- Slider Start -->
+    <section class="m-5 pb-5">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/cover/cover-1.png" class="w-100 border-start" alt="">
+                    <div class="carousel-caption text-light">
+                        <h1 class="align-items-center fw-bold fs-1 lh-base">Get Started Digital Learning</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
+                        <button class="btn btn-info fw-bold fs-5 text-white py-2 px-3">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-light">
+                        <h1 class="align-items-center fw-bold fs-1 lh-base">Get Started Digital Learning</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of
+                            a
+                            page when looking at its layout.</p>
+                        <button class="btn btn-info fw-bold fs-5 text-white py-2 px-3">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-light">
+                        <h1 class="align-items-center fw-bold fs-1 lh-base">Get Started Digital Learning</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of
+                            a
+                            page when looking at its layout.</p>
+                        <button class="btn btn-info fw-bold fs-5 text-white py-2 px-3">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Slider End -->
+
+    <!-- Course Section Start -->
+    <section class="container mb-5 pb-5" id="Courses">
+        <c-header class="text-center">
+            <h2 class="fs-2 fw-bold">
+                Discover Our Popular <br />
+                Courses
+            </h2>
+            <p class="text-secondary">
+                It is a long established fact that a reader will be distracted by
+                the readable <br />
+                content of a page when looking at its layout.
+            </p>
+        </c-header>
+        <c-main class="row pt-5">
+            <div class="row">
+                <!-- First-course start -->
+
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-1.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Fundamental Of UI/UX Design
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- First-course End -->
+                <!-- 2nd-course start -->
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-2.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Javascript Basic to advanced
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- 2nd-course End -->
+                <!-- 3rd-course start -->
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-3.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Fullstack Web Development
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- 3rd-course End -->
+                <!-- 4th-course start -->
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-4.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Digital Marketing
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- 4th-course End -->
+                <!-- 5th-course Start -->
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-5.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Photography Basic Rules
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- 5th-course End -->
+                <!-- 6th-course Start -->
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <img src="images/course/course-6.png" alt="" />
+                </div>
+                <div class="pt-4 col-lg-3 col-md-6">
+                    <p class="fw-bold fs-5 text-secondary">
+                        Motion Graphics
+                    </p>
+                    <small class="text-secondary">Some quick example text to build on the card title <br />
+                        and make up the bulk of the card.</small>
+                    <br /><br />
+                    <p class="text-primary fw-bold">Price : 20$</p>
+                </div>
+                <!-- 6th-course End -->
+            </div>
+        </c-main>
+        <c-footer class="d-flex justify-content-center pt-5">
+            <button class="btn btn-primary" type="submit">See All Courses</button>
+        </c-footer>
+    </section>
+
+    <!-- Course Section End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
