@@ -10,3 +10,11 @@ body {
 .bg-elearning {
     background-color: #F4FAFD;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
